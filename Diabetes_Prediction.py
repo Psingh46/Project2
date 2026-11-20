@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("diabetes_prediction_model.joblib")
+model = joblib.load("diabetes_prediction_model.json")
 
 st.set_page_config(page_title="Diabetes Prediction", page_icon="🩺")
 
